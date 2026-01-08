@@ -4,8 +4,6 @@ on:
   push:
     tags:
       - '*'
-    branches:
-      - main
   workflow_dispatch:
 
 # Allow only one concurrent deployment, skipping runs queued between the in-progress and latest queued.
